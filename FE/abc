@@ -1,0 +1,55 @@
+package com.example.abc;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class abcApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(LuyentapApplication.class, args);
+        System.out.println("Chuong trinh khoi dong!");
+        printMenu();
+        randomProcess();
+        tinhToanPhucTap();
+    }
+
+    // Doan code random so 1
+    public static void printMenu() {
+        System.out.println("=== MENU ===");
+        System.out.println("1. Bat dau");
+        System.out.println("2. Thoat");
+    }
+
+    // Doan code random so 2
+    public static void randomProcess() {
+        String[] ds = {"apple", "banana", "orange", "lemon"};
+        for (String item : ds) {
+            System.out.println("Item: " + item);
+        }
+
+        int dem = 0;
+        while (dem < 3) {
+            System.out.println("While loop lan: " + dem);
+            dem++;
+        }
+    }
+
+    // Doan code random so 3
+    public static void tinhToanPhucTap() {
+        int tong = 0;
+        for (int i = 1; i <= 10; i++) {
+            tong += i;
+        }
+        System.out.println("Tong 1->10 = " + tong);
+
+        int[] arr = {2, 4, 6, 8, 10};
+        int max = arr[0];
+        for (int value : arr) {
+            if (value > max) {
+                max = value;
+            }
+        }
+        System.out.println("Gia tri lon nhat trong mang: " + max);
+    }
+}
