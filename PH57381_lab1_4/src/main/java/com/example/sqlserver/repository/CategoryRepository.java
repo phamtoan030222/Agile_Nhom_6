@@ -1,0 +1,1 @@
+package com.example.sqlserver.repository; import com.example.sqlserver.entity.Category; import org.springframework.data.jpa.repository.JpaRepository; public interface CategoryRepository extends JpaRepository<Category,Long>{}

@@ -1,0 +1,1 @@
+package com.example.demo.repo;import org.springframework.data.jpa.repository.*;import com.example.demo.entity.MoiQuanHe;public interface MoiQuanHeRepo extends JpaRepository<MoiQuanHe,Integer>{}

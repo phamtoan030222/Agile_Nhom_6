@@ -1,0 +1,15 @@
+<html><body><div id='app'>
+<h3>Nhân viên</h3>
+<ul><li v-for='nv in list'>{{nv.ma}} - {{nv.ten}}</li></ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script>
+new Vue({
+ el:'#app',
+ data:{list:[]},
+ mounted(){
+   fetch('http://localhost:8080/api/nhanvien').then(r=>r.json()).then(d=>this.list=d);
+ }
+})
+</script>
+</body></html>

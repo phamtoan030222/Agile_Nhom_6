@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Buoi2/Buoi2.iml" filepath="$PROJECT_DIR$/Buoi2/Buoi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java6.iml" filepath="$PROJECT_DIR$/.idea/Java6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssGD1/src/admin-crud.iml" filepath="$PROJECT_DIR$/AssGD1/src/admin-crud.iml" />
+    </modules>
+  </component>
+</project>

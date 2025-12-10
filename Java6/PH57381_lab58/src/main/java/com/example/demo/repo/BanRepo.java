@@ -1,0 +1,1 @@
+package com.example.demo.repo;import org.springframework.data.jpa.repository.*;import com.example.demo.entity.Ban;public interface BanRepo extends JpaRepository<Ban,Integer>{}
