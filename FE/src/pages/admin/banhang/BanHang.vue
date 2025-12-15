@@ -1,7 +1,7 @@
 <template>
   <div class="breadcrumb-section">
     <BreadcrumbDefault :pageTitle="'Bán hàng'" :routes="[
-      { path: '/ban-hang', name: 'Bán hàng eeeeeeeeeeeee' }
+      { path: '/ban-hang', name: 'Bán hàng ' }
     ]" />
   </div>
   <div class="main-layout">
