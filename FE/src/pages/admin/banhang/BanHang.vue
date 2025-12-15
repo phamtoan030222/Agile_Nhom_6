@@ -1,7 +1,7 @@
 <template>
   <div class="breadcrumb-section">
     <BreadcrumbDefault :pageTitle="'Bán hàng'" :routes="[
-      { path: '/ban-hang', name: 'Bán hàng' }
+      { path: '/ban-hang', name: 'Bán hàng eeeeeeeeeeeee' }
     ]" />
   </div>
   <div class="main-layout">
@@ -66,7 +66,7 @@
             </button>
             <button class="btn-add-product" @click="openQrModal">
               <p class="quet">
-                <QrcodeOutlined /> Quét QR aaaaaaaaaaaaaaa
+                <QrcodeOutlined /> Quét QR 
               </p>
             </button>
           </div>
