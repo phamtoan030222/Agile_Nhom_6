@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-
+    
       <div class="card mt-4">
         <div class="card-header">
           <h3>Giỏ hàng</h3>
@@ -66,7 +66,7 @@
             </button>
             <button class="btn-add-product" @click="openQrModal">
               <p class="quet">
-                <QrcodeOutlined /> Quét QR
+                <QrcodeOutlined /> Quét QR Abc
               </p>
             </button>
           </div>
