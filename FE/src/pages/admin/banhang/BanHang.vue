@@ -66,7 +66,7 @@
             </button>
             <button class="btn-add-product" @click="openQrModal">
               <p class="quet">
-                <QrcodeOutlined /> Quét QR Abc
+                <QrcodeOutlined /> Quét QR aaaaaaaaaaaaaaa
               </p>
             </button>
           </div>
