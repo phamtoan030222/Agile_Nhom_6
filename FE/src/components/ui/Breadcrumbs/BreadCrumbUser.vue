@@ -36,7 +36,7 @@ defineProps({
         </ol>
       </nav>
 
-      <!-- Title bên phải -->
+      <!-- Title bên phải trái-->
       <h6
   v-if="title"
   class="fw-semibold text-muted mb-0 small text-center text-md-end d-none d-md-block"
